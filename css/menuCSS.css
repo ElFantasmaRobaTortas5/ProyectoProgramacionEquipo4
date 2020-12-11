@@ -1,0 +1,83 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+nav{
+	 height: 75px;
+	background-color: black;	
+}
+nav .logo{
+	width: 100%;
+	height: 100%;
+	
+}
+.app{
+	float: right;
+	
+}
+nav ul{
+	float: right;
+	margin-right: 75px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: wheat;
+	padding: 0 10px ;
+	display: block;
+	line-height: 75px;
+	font-size: 20px;
+    background: black;
+	transition: .4s;
+}
+nav ul li a:hover,
+nav ul li a.activar{
+	color: brown;
+}
+nav ul li:hover > ul{
+	top: 50px;
+	opacity: 1;
+	visibility: visible;
+	transition: .3s linear;
+	
+}
+nav ul ul{
+	position: absolute;
+	top: 75px;
+	border-top: .5px brown solid;
+	opacity: 0;
+	visibility: hidden;
+}
+
+nav ul ul li{
+	width: 153px;
+	display: list-item;
+	position: relative;
+	border: 1px brown solid;
+	border-top: none;
+}
+.menu-ficet{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

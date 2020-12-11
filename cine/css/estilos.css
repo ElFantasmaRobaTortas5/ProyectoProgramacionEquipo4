@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.Titulop {
+    font-family: "Bahnschrift";
+}
+.titulo {
+    font-family: "Bahnschrift Light SemiCondensed";
+}
+.titulo {
+    font-family: "Bahnschrift Light SemiCondensed";
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Bahnschrift Light SemiCondensed";
+}
+h1 {
+    font-size: 50px;
+	font-family: "Times New Roman";
+}
+h3 {
+    font-size: 36px;
+	font-family: "Times New Roman";
+}
+.acomodar{
+	margin-right: 1000px;
+	background-position: center;
+	 valign: middle;
+	background-color: #000000;
+}
+.img1{
+	margin-left: 100px;
+}
+ .cuerpo-texto {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-justify: auto;
+	 text-decoration-style: solid;
+}
+.line{
+	border-top: 1px solid #000000;
+}
+.img-titulo{
+	width: 600px;
+	height: 290px;
+	
+}
+.video{
+	width: 600px;
+	height: 275px;
+	background-color: aquamarine;
+}
+.video-img {
+	width: 95%;
+	height: 95%;
+	
+}
